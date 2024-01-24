@@ -1,0 +1,313 @@
+:root {
+    --text-dark: #1D1D1F;
+    --bg-primary: #000000;
+    --bg-secondary: #ffff;
+    --text-light: #FFFFFF;
+    --action-color: #2997FF;
+    --subtitle-color: #6E6E73;
+    --title-primary-color: #F5F5F7;
+    --spirited-main-color: #DED2B9;
+}
+
+header
+{
+    top: 0;
+    z-index: 1;
+    opacity: 0.9;
+    position: sticky;
+    padding: 12px 0px;
+    height: fit-content;
+    color: var(--text-light);
+    background-color: var(--bg-primary);
+}
+
+header nav ul
+{
+    gap: 1rem;
+    display: flex;
+    margin: 0 auto;
+    padding: 0 2rem;
+    width: fit-content;
+    align-items: center;
+    background-color: var(--bg-primary);
+}
+
+header nav ul
+{
+    cursor: pointer;
+    font-size: small;
+    list-style: none;
+    padding: 0 0.75rem;
+    height: fit-content;
+    min-width: fit-content;
+}
+
+main
+{
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+main section img
+{
+    width: 100%;
+    height: auto;
+}
+
+main section a
+{
+    cursor: pointer;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    text-decoration: none;
+    color: var(--action-color);
+}
+
+main section a:hover
+{
+    text-decoration: underline;
+}
+
+main .main-section 
+{
+    text-align: center;
+    position: relative;
+}
+
+main .main-section h1
+{
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 4rem;
+    letter-spacing: -0.28px;
+    color: var(--title-primary-color);
+}
+
+main .main-section h2
+{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: normal;
+    margin-bottom: 14px;
+    letter-spacing: -0.11px;
+    color: var(--subtitle-color);
+}
+
+main .main-section sub 
+{
+    font-size: 0.9rem;
+}
+
+main .main-section .text-wrapper
+{
+    left: 50%;
+    display: flex;
+    margin-top: 51px;
+    position: absolute;
+    align-items: center;
+    flex-direction: column;
+    transform: translateX(-50%);
+}
+
+main .spirited-section
+{
+    position: relative;
+}
+
+main .spirited-section > div 
+{
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+}
+
+main .spirited-section > div:first-child
+{
+    top: 105px;
+    width: 100%;
+    display: flex;
+    max-width: 60%;
+    justify-content: space-between;
+}
+
+main .spirited-section > div:last-child
+{
+    bottom: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main .spirited-section > div:first-child p 
+{
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 2.5rem;
+    color: var(--spirited-main-color);
+    letter-spacing: -0.6px;
+}
+
+main .spirited-section p 
+{
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    letter-spacing: 0.11px;
+    color: var(--title-primary-color);
+}
+
+main .spirited-section span 
+{
+    display: block;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.23px;
+    color: var(--text-light);
+}
+
+main .iphone-section
+{
+    text-align: center;
+    position: relative;
+}
+
+main .iphone-section h2
+{
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 4rem;
+    letter-spacing: -0.28px;
+    color: var(--text-dark);
+}
+
+main .iphone-section p
+{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: normal;
+    margin-bottom: 14px;
+    letter-spacing: -0.11px;
+    color: var(--text-dark);
+}
+
+main .main-section .link-wrapper
+{
+    gap: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .main-section .text-wrapper
+{
+    left: 50%;
+    display: flex;
+    margin-top: 51px;
+    position: absolute;
+    align-items: center;
+    flex-direction: column;
+    transform: translateX(-50%);
+}
+
+main .store-section
+{
+    
+}
+
+main .store-section
+{  
+    gap: 8px;  
+    display: flex;
+    padding: 0 8px;
+    justify-content: space-between;
+}
+
+main .store-section .left-wrapper, .right-wrapper
+{
+    gap: 10px;
+    width: 50%;    
+    display: flex;
+    flex-direction: column;
+}
+
+main .store-section .card-item 
+{
+    width: 100%;
+       
+    position: relative;
+}
+
+.bg-black
+{
+    background-color: var(--bg-primary);
+}
+
+.bg-white
+{
+    background-color: var(--bg-secondary);
+}
+
+main .store-section .card-item .text-wrapper
+{
+    left: 50%;
+    display: flex;
+    margin-top: 15px;
+    text-align: center;
+    position: absolute;
+    align-items: center;    
+    flex-direction: column;
+    transform: translateX(-50%);
+}
+
+main .store-section .bg-black h2
+{
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 4rem;
+    letter-spacing: -0.28px;
+    color: var(--title-primary-color);
+}
+
+main .store-section .bg-black p
+{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: normal;
+    margin-bottom: 20px;
+    letter-spacing: -0.11px;
+    color: var(--subtitle-color);
+}
+
+main .store-section .bg-white h2
+{
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 4rem;
+    letter-spacing: -0.28px;
+    color: var(--text-dark);
+}
+
+main .store-section .bg-white p
+{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: normal;
+    margin-bottom: 20px;
+    letter-spacing: -0.11px;
+    color: var(--text-dark);
+}
+
+main .store-section .card-item .text-wrapper .logo-apple
+{
+    width: 2rem;
+}
+main .store-section .card-item .text-wrapper .image-title
+{
+    margin: 25px 0;
+}
+
+.small 
+{
+    font-size: 0.9rem;
+}
