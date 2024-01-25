@@ -311,3 +311,9 @@ main .store-section .card-item .text-wrapper .image-title
 {
     font-size: 0.9rem;
 }
+
+footer 
+{
+    height: 200px;
+    background-color: #dadada;
+}
