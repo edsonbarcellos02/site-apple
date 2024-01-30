@@ -18,8 +18,6 @@ Este projeto é um clone da página inicial do site da Apple seguindo o Figma co
 
 ## Deploy
 
-O deploy do projeto está agora em [Netlify](https://netlify.com/).
-
 Você pode visitar através (https://apple-home-page.netlify.app/).
 
 ## Licença
